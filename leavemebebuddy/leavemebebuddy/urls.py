@@ -18,6 +18,7 @@ from django.contrib import admin
 from django.urls import include, path
 
 urlpatterns = [
-    path("lmbbbackend/", include("lmbbbackend.urls")),
+    path("lmbb/", include("lmbbbackend.urls")),
+    path("users/", include("users.urls")),
     path('admin/', admin.site.urls),
 ]

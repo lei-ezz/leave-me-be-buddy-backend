@@ -76,15 +76,15 @@ WSGI_APPLICATION = 'leavemebebuddy.wsgi.application'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
 DATABASES = {
-    'random': {
+    'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'lmbb',
         'USER': 'root',
-        'PASSWORD': 'BABAGHAN0UJ!',
-        'HOST': 'http://127.0.0.1/',
+        'PASSWORD': 'babaGHAN0UJ!',
+        'HOST': '127.0.0.1',
         'PORT': '3306'
     },
-    'default': {
+    'random': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
     }
